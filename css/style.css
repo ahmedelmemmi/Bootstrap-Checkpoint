@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+
+}
+.container{
+  margin: 0;
+  padding: 0;
+}
+.img-fluid{
+  margin: 0;
+  width: 1348px;
+  height: 300px; 
+ 
+}
+.img-circle{
+  left: 350px;
+  top: -80px;
+  position: relative;
+  margin-left: 10%;
+  margin-top: -25px; 
+}
+.name{
+  display: grid;
+  justify-content: center;
+  margin-top: 135px;
+  margin-left: 250px; 
+}
+#prenom:hover{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.boxs{
+  box-sizing: border-box;
+  padding: 20px;
+  width: 50%;
+  height: 350px;
+  display: inline-block;
+  overflow: hidden;
+}
+h1{
+  color: aqua;
+  font-size: 40px;
+}
+h3{
+  margin-top: 5px;
+  margin-left: 50px;
+}
+.interests{
+transition-duration: 2ms;
+}
+.item{
+  display: none;
+  color: aqua;
+  font-size: 30px;
+  animation: mymove 5s infinite;
+}
+#testt{
+  animation-timing-function: linear;
+}
+.fa-twitter:hover,
+.fa-linkedin-in:hover,
+.fa-facebook-f:hover,
+.fa-plane:hover,
+.fa-laptop:hover,
+.fa-motorcycle:hover,
+.fa-film:hover,
+.fa-playstation:hover,
+.fa-itunes:hover{
+  color: aqua;
+  transform:rotate(360deg);
+  transition-duration: 1s;
+
+}
+.img-responsive{
+  margin: 20px;
+  box-shadow: 2px 2px 3px; 
+}
+.img-responsive:hover{
+  box-shadow: none;
+  transition: box-shadow .3s;
+  cursor: pointer;
+}
+.Projects,.interests,.row{
+  padding-top: 50px;
+  padding-left: 100px;
+}
+.fab{
+  padding: 15px;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
